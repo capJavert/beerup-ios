@@ -3,8 +3,8 @@ import {
   ScrollView,
   StyleSheet,
   View,
-  StatusBar,
-  Dimensions
+  Dimensions,
+  StatusBar
 } from 'react-native'
 
 import { navigationOptions } from '../navigation/options'
@@ -75,6 +75,7 @@ export default class HomeScreen extends React.Component {
 
     return (
       <View style={styles.container}>
+        <StatusBar barStyle="light-content" />
         <BeerList
           beers={beers}
           onFavorite={this.handleFavorite}
