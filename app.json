@@ -26,6 +26,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "website.kickass.beerup"
     },
-    "orientation": "portrait"
+    "description": "",
+    "githubUrl": "https://github.com/capJavert/beerup-native"
   }
 }
